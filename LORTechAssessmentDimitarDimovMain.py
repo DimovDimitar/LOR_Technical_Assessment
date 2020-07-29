@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 os.chdir(r"C:\Users\dimit\Desktop\Laing O'Rourke Tech Assessment")
 
-data = pd.read_excel("Online Retail.xlsx", parse_dates=["InvoiceDate"])
+data = pd.read_csv("Online Retail Database.csv", parse_dates=["InvoiceDate"])
 
 #-------------------------------------#
 # Pre-processing and cleaning #
